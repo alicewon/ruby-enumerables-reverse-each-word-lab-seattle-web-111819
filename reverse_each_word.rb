@@ -8,7 +8,7 @@ def reverse_each_word(variable_sentance)
   #i=0
   puts "variable_sentance"
   puts variable_sentance
-  variable_sentance.split(" ").collect.each{|word| word.reverse}
+  variable_sentance.split(" ").collect{|word| word.each.reverse}
   puts "variable_sentance after enumerable work"
   puts variable_sentance
   # while i < sentence1.length do

@@ -6,7 +6,7 @@
 
 def reverse_each_word(variable_sentance)
   #i=0
-  variable_sentance.split(" ").collect {|word| word.reverse_each}
+  variable_sentance.split(" ").collect {|word| word.reverse}
 
   # while i < sentence1.length do
   #   sentence1.reverse_each{|word| }

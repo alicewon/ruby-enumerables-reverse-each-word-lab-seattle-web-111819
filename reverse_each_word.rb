@@ -6,6 +6,7 @@
 
 def reverse_each_word(variable_sentance)
   #i=0
+  sentance_array= []
   puts "variable_sentance"
   puts variable_sentance
   sentance_array = variable_sentance.split#.collect{|word| word.reverse}

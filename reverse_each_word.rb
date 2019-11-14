@@ -5,7 +5,7 @@
   #.each returns the original array but other enumerators don't
 
 def reverse_each_word(sentence1)
-  i=0
+  #i=0
   sentence1.split(" ")
   # while i < sentence1.length do
   #   sentence1.reverse_each{|word| }

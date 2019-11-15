@@ -9,7 +9,7 @@
   # Use the .collect method
   # Understand the return value of the .collect method
   # Use the return of collect for further operation
-  
+
 def reverse_each_word(variable_sentance)
   #i=0
   #sentance_array= []
